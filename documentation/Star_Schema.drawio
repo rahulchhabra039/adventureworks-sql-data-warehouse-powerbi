@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CAYzixa_8KMUAD120Yht">
+    <mxGraphModel dx="824" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="63-PrP7CcosHL1NopewL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;FactSales&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SalesKey (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DateKey (FK)&lt;/div&gt;&lt;div&gt;CustomerKey (FK)&lt;/div&gt;&lt;div&gt;ProductKey (FK)&lt;/div&gt;&lt;div&gt;TerritoryKey (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SalesOrderID&lt;/div&gt;&lt;div&gt;OrderQty&lt;/div&gt;&lt;div&gt;UnitPrice&lt;/div&gt;&lt;div&gt;UnitPriceDiscount&lt;/div&gt;&lt;div&gt;SalesAmount&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="280" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-20" edge="1" parent="1" source="63-PrP7CcosHL1NopewL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="63-PrP7CcosHL1NopewL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;DimCustomer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CustomerKey (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CustomerID&lt;/div&gt;&lt;div&gt;PersonID&lt;/div&gt;&lt;div&gt;StoreID&lt;/div&gt;&lt;div&gt;TerritoryID&lt;/div&gt;&lt;div&gt;AccountNumber&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="130" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;DimProduct&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ProductKey (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ProductID&lt;/div&gt;&lt;div&gt;ProductName&lt;/div&gt;&lt;div&gt;ProductNumber&lt;/div&gt;&lt;div&gt;Color&lt;/div&gt;&lt;div&gt;StandardCost&lt;/div&gt;&lt;div&gt;ListPrice&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;ProductSize&lt;/div&gt;&lt;div&gt;ProductLine&lt;/div&gt;&lt;div&gt;ProductClass&lt;/div&gt;&lt;div&gt;ProductStyle&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="120" x="640" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;DimDate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DateKey (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FullDate&lt;/div&gt;&lt;div&gt;DayNumber&lt;/div&gt;&lt;div&gt;MonthNumber&lt;/div&gt;&lt;div&gt;MonthName&lt;/div&gt;&lt;div&gt;QuarterNumber&lt;/div&gt;&lt;div&gt;YearNumber&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="200" x="300" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-6" edge="1" parent="1" source="63-PrP7CcosHL1NopewL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="63-PrP7CcosHL1NopewL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-21" edge="1" parent="1" source="63-PrP7CcosHL1NopewL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;DimTerritory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TerritoryKey (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TerritoryID&lt;/div&gt;&lt;div&gt;TerritoryName&lt;/div&gt;&lt;div&gt;CountryRegionCode&lt;/div&gt;&lt;div&gt;TerritoryGroup&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="230" x="290" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;div&gt;AdventureWorks Data Warehouse&lt;/div&gt;&lt;div&gt;Star Schema Design&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="210" x="40" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-18" edge="1" parent="1" source="63-PrP7CcosHL1NopewL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.476;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="63-PrP7CcosHL1NopewL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63-PrP7CcosHL1NopewL-19" edge="1" parent="1" source="63-PrP7CcosHL1NopewL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.474;entryDx=0;entryDy=0;entryPerimeter=0;" target="63-PrP7CcosHL1NopewL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
