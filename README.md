@@ -144,7 +144,7 @@ It includes:
 * Top 10 products by revenue
 * Year, territory and product-class filters
 
-![Sales Overview](screenshots/01_Sales_Overview.png)
+![Sales Overview](screensorts/01_Sales_Overview.png)
 
 ### 2. Product Analysis
 
@@ -160,7 +160,7 @@ It includes:
 * Product-level performance summary
 * Total sales, quantity, orders and average selling price
 
-![Product Analysis](screenshots/02_Product_Analysis.png)
+![Product Analysis](screensorts/02_Product_Analysis.png)
 
 ### 3. Customer & Territory Analysis
 
@@ -175,7 +175,7 @@ It includes:
 * Top 10 customers by revenue
 * Territory-level sales, orders and customer summary
 
-![Customer and Territory Analysis](screenshots/03_Customer_Territory_Analysis.png)
+![Customer and Territory Analysis](screensorts/03_Customer_Territory_Analysis.png)
 
 ## Important DAX Measures
 
