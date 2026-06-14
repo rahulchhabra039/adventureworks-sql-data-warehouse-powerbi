@@ -273,11 +273,14 @@ adventureworks-sql-data-warehouse-powerbi
 6. Update the SQL Server data-source connection if required.
 7. Refresh the Power BI model.
 
-## Dataset Note
+
+## Dataset Source
 
 The original `AdventureWorks2022.bak` database backup is not included in this repository because of its file size.
+This project uses Microsoft’s **AdventureWorks2022 OLTP** sample database.
 
-AdventureWorks is a publicly available Microsoft sample database and can be downloaded separately before running the SQL scripts.
+[Download AdventureWorks2022.bak](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2022.bak)
+
 
 ## Project Files
 
