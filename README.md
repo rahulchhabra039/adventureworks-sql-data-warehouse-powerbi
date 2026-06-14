@@ -284,7 +284,8 @@ AdventureWorks is a publicly available Microsoft sample database and can be down
 * [View SQL Scripts](sql)
 * [View Project Documentation](documentation)
 * [View Dashboard Screenshots](screensorts)
-* [Open or Download Power BI Report](power-bi/AdventureWorks_Dashboard.pbix)
+* [Download Power BI Report](https://github.com/rahulchhabra039/adventureworks-sql-data-warehouse-powerbi/releases/latest/download/AdventureWorks_Dashboard.pbix)
+
 
   
 
